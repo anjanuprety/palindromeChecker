@@ -1,11 +1,17 @@
+body{
+  background-color: antiquewhite;
+
+}
+
 .container{
   margin: 200px 300px ;
-  background-color: lightgray;
+  background-color: rgba(69, 67, 73, 0.5);
   height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: solid rgb(53, 85, 142) 10px;
 }
 .logo{
   height: 35px;
@@ -20,12 +26,64 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 300px;
+  height: 400px;
   width: 90%;
-  background-color: whitesmoke;
   padding: 20px;
+  background-image: linear-gradient(to right top, #713c5a, #633f5e, #56425e, #4b445b, #434455, #4c495c, #554e63, #5f5369, #835c74, #a86572, #c27464, #cb8d54);
 }
 label{
   padding: 20px;
-  background-color: rgba(245, 245, 245, 0.512);
+  background-color: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.textbox{
+  width: 80%;
+  height: 70%;
+  border: none;
+  font-size: larger;
+
+}
+.check-palindrome{
+  width: 16%;
+  height: 77%;
+  background-color: blueviolet;
+  color: white;
+  border: solid 5px rgb(105, 31, 174);
+  border-radius: 25%;
+  font-size: large;
+  cursor: pointer;
+}
+.input-row{
+  display: flex;
+  height: 69px;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  padding-left: 5%;
+}
+.result{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 550;
+  color: aliceblue;
+}
+.result-para{
+  padding: 10px;
+}
+.definition{
+  height: 150px;
+  background-color:rgb(53, 85, 142);
+}
+.def{
+  padding: 10px 10px;
+  font-size: 24px;
+  font-weight: 550;
+  text-align: center;
+  font-style: italic;
+  color: aliceblue;
 }
