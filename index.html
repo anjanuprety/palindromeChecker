@@ -8,23 +8,24 @@
 </head>
 <body>
   <main class="container">
-    <div class="logo"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecamp logo" class="logo">
+    <div class="logo">
+      <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecamp logo" class="logo">
     </div>
     <h1 class="title">Is it a Palindrome?</h1>
     <div class="checker">
-      <label for="text-input">Enter in text to check for palindrome</label>
-        <div class="input-row">
-          <input type="text" name="palindrome-input" id="text-input" class="textbox">
-          <button class="check-palindrome">Check</button>
-        </div>
-      <div class="result">
-        <p class="result-para">Input is not palindrome</p>
+      <label for="text-input">Enter text to check for palindrome</label>
+      <div class="input-row">
+        <input type="text" name="palindrome-input" id="text-input" class="textbox">
+        <button id="check-palindrome" class="check-palindrome">Check</button>
+      </div>
+      <div id="result" class="result">
+        <p class="result-para"></p>
       </div>
       <div class="definition">
         <p class="def">A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
       </div>
     </div>
-   
   </main>
+  <script src="./script.js"></script> <!-- Ensure this script tag is here -->
 </body>
 </html>

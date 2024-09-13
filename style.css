@@ -78,7 +78,10 @@ label {
   font-size: 22px;
   font-weight: 550;
   color: aliceblue;
-  display: none;
+  
+}
+.result{
+  display: hidden;
 }
 .result-para{
   padding: 5px 20px;
